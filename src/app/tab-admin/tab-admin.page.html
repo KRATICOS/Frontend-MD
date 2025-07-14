@@ -1,0 +1,52 @@
+  <ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+
+    </ion-buttons>
+    <ion-title>Material en Uso</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+
+  <ion-card *ngFor="let registro of registros" class="registro-card">
+
+    <ion-card-header>
+<ion-card-title class="material-titulo">
+  {{ registro.inventarioId?.name || 'Sin nombre' }} - {{ registro.inventarioId?.model || 'Sin modelo' }}
+</ion-card-title>
+<ion-card-subtitle>
+  Código: {{ registro.inventarioId?.nseries || 'Sin código' }}
+</ion-card-subtitle>
+    </ion-card-header>
+
+    <!-- Contenido del Registro -->
+    <ion-card-content>
+
+      <!-- Fecha y Hora -->
+      <ion-item lines="none">
+        <ion-label>
+          <strong>Fecha y Hora del Préstamo:</strong>
+          <p>{{ registro.fechaPrestamo | date:'fullDate' }} - {{ registro.fechaPrestamo | date:'shortTime' }}</p>
+        </ion-label>
+      </ion-item>
+
+      <!-- Estado -->
+      <ion-item lines="none">
+        <ion-label>
+          <strong>Estatus:</strong>
+          <p>{{ registro.estado }}</p>
+        </ion-label>
+      </ion-item>
+
+      <!-- Botón de Detalles -->
+      <ion-button expand="block" color="primary" (click)="verDetalles(registro._id)" class="ion-margin-top">
+        Ver Detalles del Registro
+      </ion-button>
+
+    </ion-card-content>
+
+  </ion-card>
+
+</ion-content>

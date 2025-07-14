@@ -1,0 +1,42 @@
+  <ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+    </ion-buttons>
+    <ion-title>Historial de Uso</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-list *ngFor="let registro of registros" class="ion-margin-bottom">
+
+    <ion-item lines="full" color="light">
+      <ion-label>
+      <h2><strong>Material:</strong> {{ registro.inventarioId?.name }} - {{ registro.inventarioId?.model }}</h2>
+
+      </ion-label>
+    </ion-item>
+
+    <ion-item lines="inset">
+      <ion-label>
+        <strong>Fecha y Hora:</strong>
+        <p>{{ registro.fechaPrestamo | date:'fullDate' }} - {{ registro.fechaPrestamo | date:'shortTime' }}</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item lines="inset">
+      <ion-label>
+        <strong>Estatus:</strong>
+        <p>{{ registro.estado }}</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-button expand="block" color="primary" (click)="verDetalles(registro._id)">
+        Ver Detalles
+      </ion-button>
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>

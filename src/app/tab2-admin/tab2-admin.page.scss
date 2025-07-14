@@ -1,0 +1,19 @@
+ion-item h2, ion-item p, ion-item strong {
+  margin: 0;
+  color: #333;
+}
+
+ion-list {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+ion-button {
+  margin-top: 10px;
+}
+
+ion-item[color="light"] {
+  background-color: #f8f9fa;
+  border-radius: 10px 10px 0 0;
+}
