@@ -27,7 +27,7 @@ import { CommonModule } from '@angular/common';
     IonTextarea, IonChip, IonIcon, IonCardSubtitle, IonButtons, IonBackButton,
     IonSpinner, IonCardContent, IonCardTitle, IonCardHeader, IonCard, IonBadge,
     IonItem, IonLabel, IonButton, IonContent, IonHeader, IonTitle,
-    IonToolbar, CommonModule, FormsModule, IonToast
+    IonToolbar, CommonModule, FormsModule
   ]
 })
 export class ReservaPage implements OnInit, OnDestroy {

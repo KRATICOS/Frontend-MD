@@ -22,8 +22,7 @@ import { LocalNotifications } from '@capacitor/local-notifications';
   imports: [
     IonButton, IonAvatar, CommonModule, FormsModule,
     IonHeader, IonToolbar, IonTitle, IonSegment, IonSegmentButton, IonLabel,
-    IonContent, IonList, IonItemSliding, IonItem, IonBadge, IonItemOptions,
-    IonItemOption, IonIcon
+    IonContent, IonList,  IonItem, IonBadge, IonIcon
   ]
 })
 export class NotificacionesAdminComponent implements OnInit {

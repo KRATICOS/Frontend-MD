@@ -55,10 +55,9 @@ import {
   imports: [
     CommonModule,
     ReactiveFormsModule,
-    /* Ionic standalone */
     IonHeader, IonToolbar, IonButtons, IonBackButton, IonTitle,
     IonContent, IonGrid, IonRow, IonCol,
-    IonCard, IonCardHeader, IonCardTitle, IonCardSubtitle, IonCardContent,
+    IonCard, IonCardHeader, IonCardTitle,  IonCardContent,
     IonList, IonItem, IonLabel, IonInput, IonSelect, IonSelectOption,
     IonTextarea, IonButton, IonIcon, IonChip
   ]

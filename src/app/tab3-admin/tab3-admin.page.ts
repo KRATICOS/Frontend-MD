@@ -14,7 +14,7 @@ import { ActivatedRoute } from '@angular/router';
   templateUrl: './tab3-admin.page.html',
   styleUrls: ['./tab3-admin.page.scss'],
   standalone: true,
-  imports: [IonFabButton, IonFab, IonSearchbar,IonSelect,IonText, IonLabel, IonItem, IonIcon, IonButton, IonCol, IonCard,IonContent, IonImg, IonCardTitle, IonCardHeader, IonCardSubtitle, IonCardContent, IonBadge, IonRow, IonGrid,  CommonModule, FormsModule,IonSelectOption,FormsModule,ReactiveFormsModule]
+  imports: [ IonSearchbar,IonSelect,IonText, IonLabel, IonItem, IonIcon, IonButton, IonCol, IonCard,IonContent, IonImg, IonCardTitle, IonCardHeader, IonCardSubtitle, IonCardContent, IonBadge, IonRow, IonGrid,  CommonModule, FormsModule,IonSelectOption,FormsModule,ReactiveFormsModule]
 })
 export class Tab3AdminPage implements OnInit {
 equipos: any[] = [];

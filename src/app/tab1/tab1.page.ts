@@ -28,7 +28,7 @@ import { IonSearchbar } from '@ionic/angular/standalone'; // Añadir este import
     IonButton, IonInput, IonLabel, IonItem, IonContent,
     ZXingScannerModule, IonHeader, IonToolbar, IonTitle,
     FormsModule, CommonModule, IonCard, IonCardHeader,
-    IonCardTitle, IonCardContent, IonIcon, IonToast
+    IonCardTitle, IonCardContent, IonIcon
   ],
   providers: [
     InventarioService,

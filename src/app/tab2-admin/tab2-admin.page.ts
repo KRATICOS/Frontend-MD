@@ -12,7 +12,7 @@ import { Registro } from '../interface';
   templateUrl: './tab2-admin.page.html',
   styleUrls: ['./tab2-admin.page.scss'],
   standalone: true,
-  imports: [IonButtons, IonBackButton, IonList, IonLabel, IonItem, IonButton, IonContent, CommonModule, FormsModule,IonHeader,IonToolbar,IonTitle]
+  imports: [IonButtons, IonList, IonLabel, IonItem, IonButton, IonContent, CommonModule, FormsModule,IonHeader,IonToolbar,IonTitle]
 })
 export class Tab2AdminPage implements OnInit {
 

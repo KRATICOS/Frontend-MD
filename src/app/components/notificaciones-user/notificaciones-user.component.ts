@@ -20,7 +20,7 @@ import { NotificationService, NotificacionReserva } from '../../services/notific
   imports: [
     CommonModule, FormsModule,
     IonHeader, IonToolbar, IonTitle, IonContent, IonList, IonItem,
-    IonLabel, IonBadge, IonAvatar, IonButton, IonIcon, IonToast, IonAlert
+    IonLabel, IonBadge, IonAvatar, IonButton, IonIcon, IonToast
   ]
 })
 export class NotificacionesUserComponent implements OnInit {

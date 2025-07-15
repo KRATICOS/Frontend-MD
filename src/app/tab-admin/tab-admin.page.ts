@@ -13,7 +13,7 @@ import { ellipsisVerticalOutline } from 'ionicons/icons';
   templateUrl: './tab-admin.page.html',
   styleUrls: ['./tab-admin.page.scss'],
   standalone: true,
-  imports: [IonBackButton, IonButtons, IonCardHeader, IonCard, IonCardContent, IonCardSubtitle, IonCardTitle, IonButton, IonItem, IonLabel,  CommonModule, FormsModule, IonContent,IonHeader,IonToolbar,IonTitle]
+  imports: [ IonButtons, IonCardHeader, IonCard, IonCardContent, IonCardSubtitle, IonCardTitle, IonButton, IonItem, IonLabel,  CommonModule, FormsModule, IonContent,IonHeader,IonToolbar,IonTitle]
 })
 export class TabAdminPage implements OnInit {
  
