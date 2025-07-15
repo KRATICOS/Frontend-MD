@@ -5,7 +5,7 @@ export const environment = {
   endpoints: {
     historial: 'api/historial',
     usuario: 'api/usuarios',
-    inventario: 'api/inventario/',
+    inventario: 'api/inventario',
     auth: 'api/auth',
     uploads: 'uploads/'
   }
